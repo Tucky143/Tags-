@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="mcreator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/mcreator/build/libs/mcreator.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="http://www.example.com/docs/resource1.html" />
+      <root url="http://java.sun.com/index.html" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator/plugins/generator-1.21.1/datapack-1.21.1/workspacebase/packloader/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator/plugins/generator-1.21.1/resourcepack-1.21.1/workspacebase/packloader/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

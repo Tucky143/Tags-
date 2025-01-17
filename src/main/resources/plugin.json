@@ -1,0 +1,13 @@
+{
+  "id": "tags",
+  "weight": 10,
+  "supportedversions": [
+      2024004
+  ],
+  "javaplugin":"net.mcreator.tags.Launcher",
+  "info": {
+    "name": "Tags+",
+    "author": "Tucky143",
+    "version": "2024.4"
+  }
+}
