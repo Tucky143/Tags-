@@ -1,4 +1,4 @@
-package src.main.java.net.mcreator.tags;
+package net.mcreator.tags;
 
 import net.mcreator.plugin.JavaPlugin;
 import net.mcreator.plugin.Plugin;

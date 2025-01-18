@@ -1,4 +1,4 @@
-package src.main.java.net.mcreator.tags.ui.dialogs;
+package net.mcreator.tags.ui.dialogs;
 
 import java.awt.BorderLayout;
 import java.awt.Cursor;
