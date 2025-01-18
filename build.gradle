@@ -10,7 +10,7 @@ repositories {
     flatDir { dirs mcreator_path + '/lib' }
 }
 
-group = 'net.mcreator.tags'
+group = 'net.mcreator.demojavaplugin'
 version = new JsonSlurper().parse(file('src/main/resources/plugin.json'))['info']['version']
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
@@ -30,15 +30,15 @@ dependencies {
     )
 
     // Uncomment the following two lines if you need to use JavaFX in your plugin
-    implementation group: 'org.openjfx', name: 'javafx-web', version: '21.0.2'
-    implementation group: 'org.openjfx', name: 'javafx-swing', version: '21.0.2'
+    //implementation group: 'org.openjfx', name: 'javafx-web', version: '21.0.2'
+    //implementation group: 'org.openjfx', name: 'javafx-swing', version: '21.0.2'
 
     // Use "export" configuration for dependencies that should be included in the plugin (if MCreator does not provide them)
     // export group: 'org.example', name: 'example-library', version: '1.2.3'
 }
 
 tasks.jar {
-    archiveFileName.set("tags+.zip")
+    archiveFileName.set("demo-plugin.zip")
 
     from {
         configurations.export.collect { it.isDirectory() ? it : zipTree(it) }
@@ -57,7 +57,7 @@ tasks.register('runMCreatorWithPlugin', JavaExec) {
 
     main = 'net.mcreator.Launcher'
 
-    workingDir = "C:/Program Files/Pylo/Test/MCreator"
+    workingDir = mcreator_path
 }
 
 subprojects { subproject ->
@@ -68,7 +68,7 @@ subprojects { subproject ->
             environment("MCREATOR_PLUGINS_FOLDER", new File(rootProject.projectDir, "/build/libs"))
             environment("MCREATOR_PLUGINS_DEV", "")
 
-            workingDir = "C:/Program Files/Pylo/Test/MCreator"
+            workingDir = mcreator_path
         }
     }
 }
