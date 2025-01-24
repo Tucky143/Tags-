@@ -38,7 +38,7 @@ dependencies {
 }
 
 tasks.jar {
-    archiveFileName.set("demo-plugin.zip")
+    archiveFileName.set("tags+.zip")
 
     from {
         configurations.export.collect { it.isDirectory() ? it : zipTree(it) }

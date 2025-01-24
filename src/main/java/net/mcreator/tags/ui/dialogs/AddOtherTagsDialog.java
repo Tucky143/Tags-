@@ -39,6 +39,7 @@ public class AddOtherTagsDialog {
 		JPanel entityTags = new JPanel(new GridLayout(0, 1, 2, 2));
 		JPanel biomeTags = new JPanel(new GridLayout(0, 1, 2, 2));
 		JPanel enchantmentTags = new JPanel(new GridLayout(0, 1, 2, 2));
+		JPanel extraModTags = new JPanel(new GridLayout(0, 1, 2, 2));
 
 		JTabbedPane tabPanel = new JTabbedPane();
 
@@ -47,6 +48,7 @@ public class AddOtherTagsDialog {
 		tabPanel.add(L10N.t("tag.type.entities"), makePage(entityTags));
 		tabPanel.add(L10N.t("tag.type.biomes"), makePage(biomeTags));
 		tabPanel.add(L10N.t("tag.type.enchantments"), makePage(enchantmentTags));
+		tabPanel.add(L10N.t("tag.type.extra"), makePage(extraModTags));
 
 		dialog.add("Center", tabPanel);
 
@@ -175,6 +177,16 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, enchantmentTags, "on_random_loot", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "on_traded_equipment", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "prevents_ice_melting", "minecraft", TagType.ENCHANTMENTS, false));
+
+		callables.add(addTag(mcreator, extraModTags, "has_structure/waystone", "waystones", TagType.BIOMES, false));
+		callables.add(addTag(mcreator, extraModTags, "has_structure/mossy_waystone", "waystones", TagType.BIOMES, false));
+		callables.add(addTag(mcreator, extraModTags, "has_structure/sandy_waystone", "waystones", TagType.BIOMES, false));
+		callables.add(addTag(mcreator, extraModTags, "has_structure/blackstone_waystone", "waystones", TagType.BIOMES, false));
+		callables.add(addTag(mcreator, extraModTags, "has_structure/end_stone_waystone", "waystones", TagType.BIOMES, false));
+		callables.add(addTag(mcreator, extraModTags, "ingots/iron", "forge", TagType.ITEMS, false));
+		callables.add(addTag(mcreator, extraModTags, "ores/copper", "forge", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, extraModTags, "contraptions/movable", "create", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, extraModTags, "tools/wrenches", "thermal", TagType.ITEMS, false));
 
 		//@formatter:on
 
