@@ -3,6 +3,8 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/mcreator/build/libs/mcreator.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator/build/libs/mcreator.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="http://www.example.com/docs/resource1.html" />
@@ -13,6 +15,12 @@
       <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator/src/main/java" />
       <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator/plugins/generator-1.21.1/datapack-1.21.1/workspacebase/packloader/src/main/java" />
       <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/Test/MCreator/plugins/generator-1.21.1/resourcepack-1.21.1/workspacebase/packloader/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator/plugins/generator-1.21.1/datapack-1.21.1/workspacebase/packloader/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator/plugins/generator-1.21.1/resourcepack-1.21.1/workspacebase/packloader/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator/plugins/resourcepacks+/resourcepack-1.20.4/workspacebase/packloader/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator/plugins/resourcepacks+/resourcepack-1.21.4/workspacebase/packloader/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Pylo/MCreator Source/MCreator/src/test/java" />
     </SOURCES>
   </library>
 </component>
