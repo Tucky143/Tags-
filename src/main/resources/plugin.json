@@ -2,9 +2,12 @@
   "id": "tags",
   "weight": 10,
   "supportedversions": [
-      2024004,
-      202500105718,
-      2025001
+    2024001,
+    2024002,
+    2024003,
+    2024004,
+    202500105718,
+    2025001
   ],
   "javaplugin":"net.mcreator.tags.Launcher",
   "info": {
