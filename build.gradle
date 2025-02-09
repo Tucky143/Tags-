@@ -7,7 +7,7 @@ plugins {
 repositories {
     mavenCentral()
     maven { url "https://repo.gradle.org/gradle/libs-releases" } // for gradle-tooling-api
-    flatDir { dirs "C:/Program Files/Pylo/Test/MCreator" + '/lib' }
+    flatDir { dirs "C:/Program Files/Pylo/MCreator Source/MCreator" + '/lib' }
 }
 
 group = 'net.mcreator.tags'
@@ -57,7 +57,7 @@ tasks.register('runMCreatorWithPlugin', JavaExec) {
 
     main = 'net.mcreator.Launcher'
 
-    workingDir = "C:/Program Files/Pylo/Test/MCreator"
+    workingDir = "C:/Program Files/Pylo/MCreator Source/MCreator"
 }
 
 subprojects { subproject ->
@@ -68,7 +68,7 @@ subprojects { subproject ->
             environment("MCREATOR_PLUGINS_FOLDER", new File(rootProject.projectDir, "/build/libs"))
             environment("MCREATOR_PLUGINS_DEV", "")
 
-            workingDir = "C:/Program Files/Pylo/Test/MCreator"
+            workingDir = "C:/Program Files/Pylo/MCreator Source/MCreator"
         }
     }
 }
