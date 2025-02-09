@@ -96,6 +96,7 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, blockTags, "unstable_bottom_center", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "wool", "minecraft", TagType.BLOCKS, false));
 
+				callables.add(addTag(mcreator, itemTags, "trimmable_armor", "minecraft", TagType.ITEMS, false));
 		callables.add(addTag(mcreator, itemTags, "axes", "minecraft", TagType.ITEMS, false));
 		callables.add(addTag(mcreator, itemTags, "axolotl_food", "minecraft", TagType.ITEMS, false));
 		callables.add(addTag(mcreator, itemTags, "beacon_payment_items", "minecraft", TagType.ITEMS, false));
