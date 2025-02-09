@@ -14,9 +14,6 @@
 
 #FILES FOR GRADLE
 #=======================
-.gradle
-/build/
-**/build/
 /gradle.properties
 
 #SYSTEM AND JAVA FILES
