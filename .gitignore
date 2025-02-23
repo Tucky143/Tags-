@@ -15,6 +15,9 @@
 #FILES FOR GRADLE
 #=======================
 /gradle.properties
+/gradle
+/.gradle
+/.idea
 
 #SYSTEM AND JAVA FILES
 #=====================
