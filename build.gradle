@@ -38,7 +38,7 @@ dependencies {
 }
 
 tasks.jar {
-    archiveFileName.set("tags+.zip")
+    archiveFileName.set("tags+ 2024.x.zip")
 
     from {
         configurations.export.collect { it.isDirectory() ? it : zipTree(it) }

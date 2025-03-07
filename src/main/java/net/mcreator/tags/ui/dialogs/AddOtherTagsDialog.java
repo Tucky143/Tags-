@@ -38,9 +38,7 @@ public class AddOtherTagsDialog {
 		JPanel itemTags = new JPanel(new GridLayout(0, 1, 2, 2));
 		JPanel entityTags = new JPanel(new GridLayout(0, 1, 2, 2));
 		JPanel biomeTags = new JPanel(new GridLayout(0, 1, 2, 2));
-		JPanel structureTags = new JPanel(new GridLayout(0, 1, 2, 2));
 		JPanel enchantmentTags = new JPanel(new GridLayout(0, 1, 2, 2));
-		JPanel gameEventTags = new JPanel(new GridLayout(0, 1, 2, 2));
 		JPanel extraModTags = new JPanel(new GridLayout(0, 1, 2, 2));
 
 		JTabbedPane tabPanel = new JTabbedPane();
@@ -49,9 +47,7 @@ public class AddOtherTagsDialog {
 		tabPanel.add(L10N.t("tag.type.items"), makePage(itemTags));
 		tabPanel.add(L10N.t("tag.type.entities"), makePage(entityTags));
 		tabPanel.add(L10N.t("tag.type.biomes"), makePage(biomeTags));
-		tabPanel.add(L10N.t("tag.type.structures"), makePage(structureTags));
 		tabPanel.add(L10N.t("tag.type.enchantments"), makePage(enchantmentTags));
-		tabPanel.add(L10N.t("tag.type.game_events"), makePage(gameEventTags));
 		tabPanel.add(L10N.t("tag.type.extra"), makePage(extraModTags));
 
 		dialog.add("Center", tabPanel);
@@ -171,10 +167,6 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, biomeTags, "water_on_map_outlines", "minecraft", TagType.BIOMES, false));
 		callables.add(addTag(mcreator, biomeTags, "without_zombie_sieges", "minecraft", TagType.BIOMES, false));
 
-		callables.add(addTag(mcreator, structureTags, "cats_spawn_as_black", "minecraft", TagType.STRUCTURES, false));
-		callables.add(addTag(mcreator, structureTags, "on_ocean_explorer_maps", "minecraft", TagType.STRUCTURES, false));
-		callables.add(addTag(mcreator, structureTags, "on_woodland_explorer_maps", "minecraft", TagType.STRUCTURES, false));
-
 		callables.add(addTag(mcreator, enchantmentTags, "exclusive_set/armor", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "exclusive_set/boots", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "exclusive_set/bow", "minecraft", TagType.ENCHANTMENTS, false));
@@ -189,9 +181,6 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, enchantmentTags, "on_random_loot", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "on_traded_equipment", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "prevents_ice_melting", "minecraft", TagType.ENCHANTMENTS, false));
-
-		callables.add(addTag(mcreator, gameEventTags, "ignore_vibrations_sneaking", "minecraft", TagType.GAME_EVENTS, false));
-		callables.add(addTag(mcreator, gameEventTags, "vibrations", "minecraft", TagType.GAME_EVENTS, false));
 
 		callables.add(addTag(mcreator, extraModTags, "has_structure/waystone", "waystones", TagType.BIOMES, false));
 		callables.add(addTag(mcreator, extraModTags, "has_structure/mossy_waystone", "waystones", TagType.BIOMES, false));
