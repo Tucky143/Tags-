@@ -30,7 +30,6 @@ public class Launcher extends JavaPlugin {
                 );
                 openTagsDialogAction.setIcon(UIRES.get("16px.injecttags"));
 
-                // Add the "Tags+" menu to the main menu bar
                 JMenuBar menuBar = mcreator.getMainMenuBar();
                 if (menuBar != null) {
                     mcreator.getToolBar().addToLeftToolbar(openTagsDialogAction);
