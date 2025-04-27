@@ -80,9 +80,13 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, blockTags, "crops", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "doors", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "dragon_transparent", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "edible_for_sheep ", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "enchantment_power_transmitter", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "enderman_holdable", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "fall_damage_resetting", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "infiniburn_end", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "infiniburn_nether", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "infiniburn_overworld", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "maintains_farmland", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "moss_replaceable", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "nylium", "minecraft", TagType.BLOCKS, false));
