@@ -84,9 +84,13 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, blockTags, "crops", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "doors", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "dragon_transparent", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "edible_for_sheep ", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "enchantment_power_transmitter", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "enderman_holdable", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "fall_damage_resetting", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "infiniburn_end", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "infiniburn_nether", "minecraft", TagType.BLOCKS, false));
+		callables.add(addTag(mcreator, blockTags, "infiniburn_overworld", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "maintains_farmland", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "moss_replaceable", "minecraft", TagType.BLOCKS, false));
 		callables.add(addTag(mcreator, blockTags, "nylium", "minecraft", TagType.BLOCKS, false));
@@ -174,6 +178,8 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, structureTags, "cats_spawn_as_black", "minecraft", TagType.STRUCTURES, false));
 		callables.add(addTag(mcreator, structureTags, "on_ocean_explorer_maps", "minecraft", TagType.STRUCTURES, false));
 		callables.add(addTag(mcreator, structureTags, "on_woodland_explorer_maps", "minecraft", TagType.STRUCTURES, false));
+		callables.add(addTag(mcreator, structureTags, "ocean_ruin", "minecraft", TagType.STRUCTURES, false));
+		callables.add(addTag(mcreator, structureTags, "ruined_portal", "minecraft", TagType.STRUCTURES, false));
 
 		callables.add(addTag(mcreator, enchantmentTags, "exclusive_set/armor", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "exclusive_set/boots", "minecraft", TagType.ENCHANTMENTS, false));
@@ -190,6 +196,7 @@ public class AddOtherTagsDialog {
 		callables.add(addTag(mcreator, enchantmentTags, "on_traded_equipment", "minecraft", TagType.ENCHANTMENTS, false));
 		callables.add(addTag(mcreator, enchantmentTags, "prevents_ice_melting", "minecraft", TagType.ENCHANTMENTS, false));
 
+		callables.add(addTag(mcreator, gameEventTags, "allay_can_listen", "minecraft", TagType.GAME_EVENTS, false));
 		callables.add(addTag(mcreator, gameEventTags, "ignore_vibrations_sneaking", "minecraft", TagType.GAME_EVENTS, false));
 		callables.add(addTag(mcreator, gameEventTags, "vibrations", "minecraft", TagType.GAME_EVENTS, false));
 
