@@ -4,12 +4,13 @@
   "supportedversions": [
     202500108615,
     2025001,
-    202500201667
+    202500201667,
+    2025002
   ],
   "javaplugin":"net.mcreator.tags.Launcher",
   "info": {
     "name": "Tags+",
     "author": "Tucky143",
-    "version": "2025.1, 2025.2 (EXP)"
+    "version": "2025.1, 2025.2"
   }
 }
